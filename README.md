@@ -21,23 +21,6 @@ The goal of this project is to classify images from the CIFAR-10 dataset into on
 
 The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class. It is divided into 50,000 training images and 10,000 testing images.
 
-## Project Structure
-
-The project is organized into the following files and directories:
-
-CNN_Image_Classifier/
-├── data_preprocessing.py # Script for loading and preprocessing the CIFAR-10 dataset
-├── ann_model.py # Script for building, training, and evaluating the ANN model
-├── cnn_model.py # Script for building, training, and evaluating the CNN model
-├── visualizations.py # Script for plotting sample images and confusion matrices
-├── utils.py # Utility functions used across the project
-├── README.md # Project documentation
-├── requirements.txt # List of project dependencies
-└── .gitignore # List of files and directories to be ignored by git
-
-bash
-
-
 ## Installation
 
 To run this project, follow these steps:
